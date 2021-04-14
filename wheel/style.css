@@ -1,0 +1,46 @@
+div{
+    position:absolute;
+    left:0;
+    width: 350px;
+    height: 350px;
+    margin: 100px 0px 0px 100px;
+    background-color: rgba(74, 18, 228, 0.651);
+    border-radius: 50%;
+    animation-name: rotate1;
+    animation-duration: 3s;
+    -webkit-animation: 'rotate1'3s linear infinite;
+    animation: 'rotate1' 3s linear infinite;
+}
+
+img{
+    position:relative;
+    left:0;
+    top:400px;
+    width: 100px;
+    height: 100px;
+    margin: -40px 0px 0px 115px;
+  
+}
+
+img{
+    
+    left: 0;
+     animation-name :rotate1;
+    animation-duration: 3s;
+    
+    -webkit-animation: 'rotate1'3s linear infinite;
+    animation: 'rotate1' 3s linear infinite;
+   
+}
+
+
+@-webkit-keyframes rotate1{
+    from{transform: rotate(0deg);left:0%;}
+    to{transform: rotate(360deg);left:100%}
+}
+
+@keyframes rotate1{
+    from{transform: rotate(0deg);left:0%;}
+    to{transform: rotate(360deg);left:100%}
+}
+
